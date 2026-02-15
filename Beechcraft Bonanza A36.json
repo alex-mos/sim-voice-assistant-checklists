@@ -1,0 +1,815 @@
+{
+  "schema": "0.1",
+  "collection": "Beechcraft Bonanza A36",
+  "author": "alex-mos",
+  "checklists": [
+    {
+      "name": "preflight",
+      "items": [
+        [
+          "preflight inspection",
+          "check"
+        ],
+        [
+          "control locks remove",
+          "check|removed"
+        ],
+        [
+          "cabin doors latched",
+          "check|latched"
+        ],
+        [
+          "parking brake set",
+          "check|set"
+        ],
+        [
+          "avionics breakers all in",
+          "check|all in"
+        ],
+        [
+          "flaps up",
+          "check|up"
+        ],
+        [
+          "oxygen pressure green",
+          "check"
+        ],
+        [
+          "avionics off",
+          "check|off"
+        ],
+        [
+          "throttle closed",
+          "check|closed"
+        ],
+        [
+          "propeller high rpm",
+          "check"
+        ],
+        [
+          "mixture full rich",
+          "check|full rich"
+        ],
+        [
+          "cowl flaps open",
+          "check|open"
+        ],
+        [
+          "aileron trim centered",
+          "check|centered"
+        ],
+        [
+          "alternate air off",
+          "check|off"
+        ],
+        [
+          "firewall valve open (push)",
+          "check|open"
+        ],
+        [
+          "landing gear down",
+          "check|down"
+        ],
+        [
+          "all subpanel switches off",
+          "check|off"
+        ],
+        [
+          "loadmeter primary",
+          "check|primary"
+        ],
+        [
+          "main breakers all in",
+          "check|all in"
+        ],
+        [
+          "fuel selector — fullest tank",
+          "check"
+        ],
+        [
+          "beacon light on",
+          "check|on"
+        ],
+        [
+          "battery master on",
+          "check|on"
+        ],
+        [
+          "bus volts 23 volts minimum",
+          "check"
+        ],
+        [
+          "annunciators test and consider",
+          "check"
+        ],
+        [
+          "primary alternator on",
+          "check|on"
+        ],
+        [
+          "standby alternator on",
+          "check|on"
+        ],
+        [
+          "fuel quantities check",
+          "check"
+        ],
+        [
+          "aux fuel pump low. audible. off.",
+          "check"
+        ],
+        [
+          "standby gyro pump on",
+          "check|on"
+        ],
+        [
+          "standby gyro pump annunciator illuminated",
+          "check"
+        ],
+        [
+          "instrument air green",
+          "check"
+        ],
+        [
+          "standby gyro pump off",
+          "check|off"
+        ]
+      ]
+    },
+    {
+      "name": "engine start cold",
+      "items": [
+        [
+          "mixture full rich",
+          "check|set"
+        ],
+        [
+          "propeller high RPM",
+          "check|set"
+        ],
+        [
+          "throttle full open",
+          "check|set"
+        ],
+        [
+          "aux fuel pump high for 2-3 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
+          "check",
+          "check"
+        ],
+        [
+          "throttle open half inch",
+          "check|set"
+        ],
+        [
+          "starter engage",
+          "check|start"
+        ],
+        [
+          "throttle 1000—1200 RPM",
+          "check|set"
+        ]
+      ]
+    },
+    {
+      "name": "engine start hot",
+      "items": [
+        [
+          "mixture cut-off",
+          "set"
+        ],
+        [
+          "propeller high rpm",
+          "set"
+        ],
+        [
+          "aux fuel pump high for 10-20 seconds",
+          "check"
+        ],
+        [
+          "aux fuel pump off",
+          "off"
+        ],
+        [
+          "mixture full rich",
+          "set"
+        ],
+        [
+          "throttle full open",
+          "set"
+        ],
+        [
+          "aux fuel pump high for 2-3 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
+          "check"
+        ],
+        [
+          "throttle open half inch",
+          "set"
+        ],
+        [
+          "starter engage",
+          "check"
+        ],
+        [
+          "if no start repeat",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "engine start flooded",
+      "items": [
+        [
+          "mixture lean",
+          "set"
+        ],
+        [
+          "propeller high rpm",
+          "set"
+        ],
+        [
+          "throttle open half inch",
+          "set"
+        ],
+        [
+          "throttle advance until start",
+          "set"
+        ],
+        [
+          "starter engage",
+          "check"
+        ],
+        [
+          "throttle idle",
+          "check"
+        ],
+        [
+          "mixture full rich",
+          "set"
+        ]
+      ]
+    },
+    {
+      "name": "after start",
+      "items": [
+        [
+          "oil pressure green",
+          "check"
+        ],
+        [
+          "start annunciator extinguished",
+          "check"
+        ],
+        [
+          "low volts annunciator extinguished",
+          "check"
+        ],
+        [
+          "alternator load below 25 amperes in 2 minutes",
+          "check"
+        ],
+        [
+          "bus volts 28",
+          "check"
+        ],
+        [
+          "engine instruments check",
+          "check"
+        ],
+        [
+          "lights as required",
+          "check"
+        ],
+        [
+          "weather radar off/standby",
+          "check"
+        ],
+        [
+          "avionics on",
+          "check"
+        ],
+        [
+          "cabin air & heat as desired",
+          "set"
+        ],
+        [
+          "air conditioning as desired",
+          "set"
+        ],
+        [
+          "mixture lean for taxi",
+          "set"
+        ],
+        [
+          "parking brake release",
+          "set"
+        ],
+        [
+          "brakes check",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "runup",
+      "items": [
+        [
+          "parking brake set",
+          "set"
+        ],
+        [
+          "annunciators test & consider",
+          ""
+        ],
+        [
+          "remote compass slaved & aligned",
+          ""
+        ],
+        [
+          "mixture full rich",
+          ""
+        ],
+        [
+          "throttle 1700 rpm",
+          ""
+        ],
+        [
+          "exercise propeller to 300 rpm drop",
+          ""
+        ],
+        [
+          "check magnetos 150 rpm drop max",
+          ""
+        ],
+        [
+          "instrument air green",
+          ""
+        ],
+        [
+          "primary alternator off",
+          ""
+        ],
+        [
+          "loadmeter secondary",
+          ""
+        ],
+        [
+          "alternator load increase",
+          ""
+        ],
+        [
+          "stby alt annunciator illuminated",
+          ""
+        ],
+        [
+          "standby alternator off",
+          ""
+        ],
+        [
+          "alternator load zero",
+          ""
+        ],
+        [
+          "loadmeter primary",
+          ""
+        ],
+        [
+          "primary alternator on",
+          ""
+        ],
+        [
+          "standby alternator on",
+          ""
+        ],
+        [
+          "alternator load above 25a",
+          ""
+        ],
+        [
+          "propeller heat on",
+          ""
+        ],
+        [
+          "propeller amps 20-25a",
+          ""
+        ],
+        [
+          "propeller heat off",
+          ""
+        ],
+        [
+          "throttle 1000-1200 rpm",
+          ""
+        ],
+        [
+          "electric trim exercise",
+          ""
+        ],
+        [
+          "autopilot test",
+          ""
+        ],
+        [
+          "heading bug 30 degrees left",
+          ""
+        ],
+        [
+          "autopilot master engage",
+          ""
+        ],
+        [
+          "heading mode engage",
+          ""
+        ],
+        [
+          "yoke movement observe",
+          ""
+        ],
+        [
+          "flight director bank left",
+          ""
+        ],
+        [
+          "heading bug 30 degrees right",
+          ""
+        ],
+        [
+          "yoke movement observe",
+          ""
+        ],
+        [
+          "flight director bank right",
+          ""
+        ],
+        [
+          "autopilot disconnect press ap off",
+          ""
+        ],
+        [
+          "autopilot disconnect press fd off",
+          ""
+        ],
+        [
+          "elevator trim set takeoff",
+          ""
+        ],
+        [
+          "flaps check operation",
+          "check"
+        ],
+        [
+          "flaps set takeoff",
+          "set"
+        ],
+        [
+          "windows closed",
+          "check"
+        ],
+        [
+          "aft door annunciator extinguished",
+          "check"
+        ],
+        [
+          "flight controls free & correct",
+          ""
+        ],
+        [
+          "altimeter set",
+          ""
+        ],
+        [
+          "departure altitude set",
+          ""
+        ],
+        [
+          "takeoff heading set",
+          ""
+        ],
+        [
+          "panel lights dim for takeoff",
+          ""
+        ],
+        [
+          "parking brake release",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "before takeoff",
+      "items": [
+        [
+          "mixture max power",
+          "set"
+        ],
+        [
+          "oil temperature 24 celsius minimum",
+          "check"
+        ],
+        [
+          "aux fuel pump off",
+          "check"
+        ],
+        [
+          "air conditioning off",
+          "check"
+        ],
+        [
+          "landing light on",
+          "on"
+        ],
+        [
+          "transponder alt mode",
+          "set"
+        ],
+        [
+          "weather radar on",
+          "check|set"
+        ]
+      ]
+    },
+    {
+      "name": "takeoff",
+      "items": [
+        [
+          "throttle full open",
+          "set"
+        ],
+        [
+          "brakes release",
+          "check|release"
+        ],
+        [
+          "engine instruments check",
+          "check"
+        ],
+        [
+          "landing gear up no runway remain",
+          "check"
+        ],
+        [
+          "flaps retract at 80 knots",
+          "check"
+        ],
+        [
+          "autopilot engage",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "climb",
+      "items": [
+        [
+          "mixture max power",
+          "set"
+        ],
+        [
+          "propeller 2500 RPM",
+          "set"
+        ],
+        [
+          "throttle full open",
+          "check"
+        ],
+        [
+          "cowl flaps as required",
+          "check"
+        ],
+        [
+          "air conditioning as desired",
+          "check"
+        ],
+        [
+          "oxygen as required",
+          "check"
+        ],
+        [
+          "engine performance monitor",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "cruise",
+      "items": [
+        [
+          "cowl flaps close",
+          "set"
+        ],
+        [
+          "landing light off",
+          "off"
+        ],
+        [
+          "pitot heat on if outside air temperature less than 4 celsius",
+          "check"
+        ],
+        [
+          "propeller heat as required",
+          "check"
+        ],
+        [
+          "fuel imbalance 15 gallons maximum",
+          "check"
+        ],
+        [
+          "lean mixture Lean Of Peak or Rich Of Peak",
+          "check"
+        ],
+        [
+          "propeller 2500 RPM",
+          "set"
+        ],
+        [
+          "throttle full open",
+          "set"
+        ],
+        [
+          "cabin air & heat as desired",
+          "check"
+        ],
+        [
+          "air conditioning as desired",
+          "check"
+        ],
+        [
+          "engine performance monitor",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "descent",
+      "items": [
+        [
+          "cowl flaps closed",
+          "check"
+        ],
+        [
+          "throttle reduce",
+          "check"
+        ],
+        [
+          "mixture enrichen",
+          "check"
+        ],
+        [
+          "engine performance monitor",
+          "check"
+        ],
+        [
+          "cylinder head temp 116 celsius minimum",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "approach",
+      "items": [
+        [
+          "fuel selector fullest tank",
+          "check"
+        ],
+        [
+          "fuel imbalance 15 gallons maximum",
+          "check"
+        ],
+        [
+          "oxygen off",
+          "check"
+        ],
+        [
+          "landing light on",
+          "check"
+        ],
+        [
+          "pitot heat on if outside air temperature less than 4 celsius",
+          "check"
+        ],
+        [
+          "propeller heat off",
+          "off"
+        ],
+        [
+          "air conditioning off",
+          "off"
+        ],
+        [
+          "cowl flaps as required",
+          "check"
+        ],
+        [
+          "mixture max power",
+          "check"
+        ],
+        [
+          "flaps approach",
+          "set"
+        ]
+      ]
+    },
+    {
+      "name": "landing",
+      "items": [
+        [
+          "propeller high rpm",
+          "set"
+        ],
+        [
+          "mixture max power",
+          "set"
+        ],
+        [
+          "flaps as required",
+          "set"
+        ],
+        [
+          "landing gear down & locked",
+          "down|set"
+        ],
+        [
+          "autopilot disconnect",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "after landing",
+      "items": [
+        [
+          "cowl flaps open",
+          "open"
+        ],
+        [
+          "flaps up",
+          "up|set"
+        ],
+        [
+          "lights as required",
+          "check"
+        ],
+        [
+          "pitot heat off",
+          "off|set"
+        ],
+        [
+          "air conditioning as desired",
+          "check"
+        ],
+        [
+          "cabin air & heat as desired",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "shutdown",
+      "items": [
+        [
+          "parking brake set",
+          "set"
+        ],
+        [
+          "avionics off",
+          "off"
+        ],
+        [
+          "all subpanel switches off",
+          "off"
+        ],
+        [
+          "throttle closed",
+          "closed|set"
+        ],
+        [
+          "propeller high rpm",
+          "set"
+        ],
+        [
+          "mixture cut-off",
+          "set"
+        ],
+        [
+          "magnetos off",
+          "off"
+        ],
+        [
+          "alternators off",
+          "off"
+        ],
+        [
+          "battery master off",
+          "off"
+        ],
+        [
+          "parking brake release",
+          "check"
+        ],
+        [
+          "control locks installed",
+          "check|set"
+        ]
+      ]
+    }
+  ]
+}
