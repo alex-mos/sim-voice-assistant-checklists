@@ -7,111 +7,115 @@
       "name": "preflight",
       "items": [
         [
-          "preflight inspection",
+          "engine covers, pitot heat cover, chockes removed",
+          "removed"
+        ],
+        [
+          "check failures",
           "check"
         ],
         [
-          "control locks remove",
-          "check|removed"
+          "check payload and fuel",
+          "check"
+        ],
+        [
+          "control locks removed",
+          "removed"
         ],
         [
           "cabin doors latched",
-          "check|latched"
+          "latched"
         ],
         [
           "parking brake set",
-          "check|set"
+          "set"
         ],
         [
-          "avionics breakers all in",
-          "check|all in"
+          "landing gear down",
+          "down"
         ],
         [
-          "flaps up",
-          "check|up"
+          "all switches off",
+          "off"
+        ],
+        [
+          "loadmeter primary",
+          "primary"
+        ],
+        [
+          "all trim tabs zero",
+          "zero"
+        ],
+        [
+          "battery on",
+          "on"
+        ],
+        [
+          "landing gear lights 3 green",
+          "check"
+        ],
+        [
+          "fuel quantity check",
+          "check"
+        ],
+        [
+          "fuel selector fullest tank",
+          "check"
+        ],
+        [
+          "battery off",
+          "off"
         ],
         [
           "oxygen pressure green",
           "check"
         ],
         [
-          "avionics off",
-          "check|off"
+          "main breakers (pilot side) all in",
+          "check"
+        ],
+        [
+          "firewall air open (pushed in)",
+          "open"
         ],
         [
           "throttle closed",
-          "check|closed"
+          "set|closed"
         ],
         [
-          "propeller high rpm",
-          "check"
+          "propeller max rpm",
+          "set"
         ],
         [
           "mixture full rich",
-          "check|full rich"
+          "full rich|set"
         ],
         [
           "cowl flaps open",
-          "check|open"
+          "open"
         ],
         [
-          "aileron trim centered",
-          "check|centered"
-        ],
-        [
-          "alternate air off",
-          "check|off"
-        ],
-        [
-          "firewall valve open (push)",
-          "check|open"
-        ],
-        [
-          "landing gear down",
-          "check|down"
-        ],
-        [
-          "all subpanel switches off",
-          "check|off"
-        ],
-        [
-          "loadmeter primary",
-          "check|primary"
-        ],
-        [
-          "main breakers all in",
-          "check|all in"
-        ],
-        [
-          "fuel selector — fullest tank",
+          "main breakers (copilot side) all in",
           "check"
         ],
         [
-          "beacon light on",
-          "check|on"
+          "battery on",
+          "on"
         ],
         [
-          "battery master on",
-          "check|on"
+          "alternator and standby alternator on",
+          "on"
         ],
         [
           "bus volts 23 volts minimum",
           "check"
         ],
         [
-          "annunciators test and consider",
+          "nav lights on",
           "check"
         ],
         [
-          "primary alternator on",
-          "check|on"
-        ],
-        [
-          "standby alternator on",
-          "check|on"
-        ],
-        [
-          "fuel quantities check",
+          "interior lights as desired",
           "check"
         ],
         [
@@ -119,37 +123,29 @@
           "check"
         ],
         [
-          "standby gyro pump on",
-          "check|on"
+          "air conditioning as desired",
+          "set"
         ],
         [
-          "standby gyro pump annunciator illuminated",
+          "annunciators test and consider",
           "check"
-        ],
-        [
-          "instrument air green",
-          "check"
-        ],
-        [
-          "standby gyro pump off",
-          "check|off"
         ]
       ]
     },
     {
-      "name": "engine start cold",
+      "name": "cold start",
       "items": [
         [
           "mixture full rich",
-          "check|set"
+          "set"
         ],
         [
           "propeller high RPM",
-          "check|set"
+          "set"
         ],
         [
           "throttle full open",
-          "check|set"
+          "set"
         ],
         [
           "aux fuel pump high for 2-3 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
@@ -158,92 +154,14 @@
         ],
         [
           "throttle open half inch",
-          "check|set"
+          "set"
         ],
         [
           "starter engage",
-          "check|start"
+          "start"
         ],
         [
           "throttle 1000—1200 RPM",
-          "check|set"
-        ]
-      ]
-    },
-    {
-      "name": "engine start hot",
-      "items": [
-        [
-          "mixture cut-off",
-          "set"
-        ],
-        [
-          "propeller high rpm",
-          "set"
-        ],
-        [
-          "aux fuel pump high for 10-20 seconds",
-          "check"
-        ],
-        [
-          "aux fuel pump off",
-          "off"
-        ],
-        [
-          "mixture full rich",
-          "set"
-        ],
-        [
-          "throttle full open",
-          "set"
-        ],
-        [
-          "aux fuel pump high for 2-3 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
-          "check"
-        ],
-        [
-          "throttle open half inch",
-          "set"
-        ],
-        [
-          "starter engage",
-          "check"
-        ],
-        [
-          "if no start repeat",
-          "check"
-        ]
-      ]
-    },
-    {
-      "name": "engine start flooded",
-      "items": [
-        [
-          "mixture lean",
-          "set"
-        ],
-        [
-          "propeller high rpm",
-          "set"
-        ],
-        [
-          "throttle open half inch",
-          "set"
-        ],
-        [
-          "throttle advance until start",
-          "set"
-        ],
-        [
-          "starter engage",
-          "check"
-        ],
-        [
-          "throttle idle",
-          "check"
-        ],
-        [
-          "mixture full rich",
           "set"
         ]
       ]
@@ -277,10 +195,6 @@
         ],
         [
           "lights as required",
-          "check"
-        ],
-        [
-          "weather radar off/standby",
           "check"
         ],
         [
@@ -318,139 +232,139 @@
         ],
         [
           "annunciators test & consider",
-          ""
+          "check"
         ],
         [
           "remote compass slaved & aligned",
-          ""
+          "check"
         ],
         [
           "mixture full rich",
-          ""
+          "check"
         ],
         [
           "throttle 1700 rpm",
-          ""
+          "check"
         ],
         [
           "exercise propeller to 300 rpm drop",
-          ""
+          "check"
         ],
         [
           "check magnetos 150 rpm drop max",
-          ""
+          "check"
         ],
         [
           "instrument air green",
-          ""
+          "check"
         ],
         [
           "primary alternator off",
-          ""
+          "check"
         ],
         [
           "loadmeter secondary",
-          ""
+          "check"
         ],
         [
           "alternator load increase",
-          ""
+          "check"
         ],
         [
           "stby alt annunciator illuminated",
-          ""
+          "check"
         ],
         [
           "standby alternator off",
-          ""
+          "check"
         ],
         [
           "alternator load zero",
-          ""
+          "check"
         ],
         [
           "loadmeter primary",
-          ""
+          "check"
         ],
         [
           "primary alternator on",
-          ""
+          "check"
         ],
         [
           "standby alternator on",
-          ""
+          "check"
         ],
         [
           "alternator load above 25a",
-          ""
+          "check"
         ],
         [
           "propeller heat on",
-          ""
+          "check"
         ],
         [
           "propeller amps 20-25a",
-          ""
+          "check"
         ],
         [
           "propeller heat off",
-          ""
+          "check"
         ],
         [
           "throttle 1000-1200 rpm",
-          ""
+          "check"
         ],
         [
           "electric trim exercise",
-          ""
+          "check"
         ],
         [
           "autopilot test",
-          ""
+          "check"
         ],
         [
           "heading bug 30 degrees left",
-          ""
+          "check"
         ],
         [
           "autopilot master engage",
-          ""
+          "check"
         ],
         [
           "heading mode engage",
-          ""
+          "check"
         ],
         [
           "yoke movement observe",
-          ""
+          "check"
         ],
         [
           "flight director bank left",
-          ""
+          "check"
         ],
         [
           "heading bug 30 degrees right",
-          ""
+          "check"
         ],
         [
           "yoke movement observe",
-          ""
+          "check"
         ],
         [
           "flight director bank right",
-          ""
+          "check"
         ],
         [
           "autopilot disconnect press ap off",
-          ""
+          "check"
         ],
         [
           "autopilot disconnect press fd off",
-          ""
+          "check"
         ],
         [
           "elevator trim set takeoff",
-          ""
+          "check"
         ],
         [
           "flaps check operation",
@@ -470,27 +384,27 @@
         ],
         [
           "flight controls free & correct",
-          ""
+          "check"
         ],
         [
           "altimeter set",
-          ""
+          "check"
         ],
         [
           "departure altitude set",
-          ""
+          "check"
         ],
         [
           "takeoff heading set",
-          ""
+          "check"
         ],
         [
           "panel lights dim for takeoff",
-          ""
+          "check"
         ],
         [
           "parking brake release",
-          ""
+          "check"
         ]
       ]
     },
@@ -520,10 +434,6 @@
         [
           "transponder alt mode",
           "set"
-        ],
-        [
-          "weather radar on",
-          "check|set"
         ]
       ]
     },
@@ -536,7 +446,7 @@
         ],
         [
           "brakes release",
-          "check|release"
+          "release"
         ],
         [
           "engine instruments check",
@@ -807,7 +717,85 @@
         ],
         [
           "control locks installed",
-          "check|set"
+          "set"
+        ]
+      ]
+    },
+    {
+      "name": "hot start",
+      "items": [
+        [
+          "mixture cut-off",
+          "set"
+        ],
+        [
+          "propeller high rpm",
+          "set"
+        ],
+        [
+          "aux fuel pump high for 10-20 seconds",
+          "check"
+        ],
+        [
+          "aux fuel pump off",
+          "off"
+        ],
+        [
+          "mixture full rich",
+          "set"
+        ],
+        [
+          "throttle full open",
+          "set"
+        ],
+        [
+          "aux fuel pump high for 2-3 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
+          "check"
+        ],
+        [
+          "throttle open half inch",
+          "set"
+        ],
+        [
+          "starter engage",
+          "check"
+        ],
+        [
+          "if no start repeat",
+          "check"
+        ]
+      ]
+    },
+    {
+      "name": "flooded start",
+      "items": [
+        [
+          "mixture lean",
+          "set"
+        ],
+        [
+          "propeller high rpm",
+          "set"
+        ],
+        [
+          "throttle open half inch",
+          "set"
+        ],
+        [
+          "throttle advance until start",
+          "set"
+        ],
+        [
+          "starter engage",
+          "check"
+        ],
+        [
+          "throttle idle",
+          "check"
+        ],
+        [
+          "mixture full rich",
+          "set"
         ]
       ]
     }
