@@ -79,18 +79,6 @@
           "open"
         ],
         [
-          "throttle closed",
-          "set|closed"
-        ],
-        [
-          "propeller max rpm",
-          "set"
-        ],
-        [
-          "mixture full rich",
-          "full rich|set"
-        ],
-        [
           "cowl flaps open",
           "open"
         ],
@@ -111,7 +99,11 @@
           "check"
         ],
         [
-          "nav lights on",
+          "navigation lights on",
+          "check"
+        ],
+        [
+          "beacon light on",
           "check"
         ],
         [
@@ -148,7 +140,7 @@
           "set"
         ],
         [
-          "aux fuel pump high for 2-3 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
+          "aux fuel pump high for 3-4 seconds. fuel flow greater than 3 gallons per hour. aux fuel pump off",
           "check",
           "check"
         ],
@@ -161,7 +153,7 @@
           "start"
         ],
         [
-          "throttle 1000—1200 RPM",
+          "throttle 1100 RPM",
           "set"
         ]
       ]
@@ -172,6 +164,10 @@
         [
           "oil pressure green",
           "check"
+        ],
+        [
+          "mixture lean for taxi",
+          "set"
         ],
         [
           "start annunciator extinguished",
@@ -190,15 +186,15 @@
           "check"
         ],
         [
-          "engine instruments check",
-          "check"
-        ],
-        [
-          "lights as required",
+          "remote compass slaved & aligned",
           "check"
         ],
         [
           "avionics on",
+          "check"
+        ],
+        [
+          "annunciators test & consider",
           "check"
         ],
         [
@@ -210,15 +206,23 @@
           "set"
         ],
         [
-          "mixture lean for taxi",
-          "set"
-        ],
-        [
           "parking brake release",
           "set"
         ],
         [
           "brakes check",
+          "check"
+        ],
+        [
+          "parking brake set",
+          "set"
+        ],
+        [
+          "taxi lights on",
+          "check"
+        ],
+        [
+          "ATC taxi clearance",
           "check"
         ]
       ]
@@ -229,14 +233,6 @@
         [
           "parking brake set",
           "set"
-        ],
-        [
-          "annunciators test & consider",
-          "check"
-        ],
-        [
-          "remote compass slaved & aligned",
-          "check"
         ],
         [
           "mixture full rich",
@@ -412,8 +408,12 @@
       "name": "before takeoff",
       "items": [
         [
-          "mixture max power",
+          "holding short. mixture full rich",
           "set"
+        ],
+        [
+          "air conditioning off",
+          "check"
         ],
         [
           "oil temperature 24 celsius minimum",
@@ -424,16 +424,32 @@
           "check"
         ],
         [
-          "air conditioning off",
+          "pitot heat on if outside air temperature less than 4 celsius",
           "check"
         ],
         [
-          "landing light on",
+          "flaps set to take off",
+          "check"
+        ],
+        [
+          "taxi lights off",
+          "check"
+        ],
+        [
+          "ATC departure clearance",
+          "check"
+        ],
+        [
+          "entering the runway. transponder alt mode",
+          "set"
+        ],
+        [
+          "landing lights on",
           "on"
         ],
         [
-          "transponder alt mode",
-          "set"
+          "strobe lights on",
+          "on"
         ]
       ]
     },
@@ -655,7 +671,11 @@
           "up|set"
         ],
         [
-          "lights as required",
+          "strobe light off",
+          "check"
+        ],
+        [
+          "taxi lights on",
           "check"
         ],
         [
