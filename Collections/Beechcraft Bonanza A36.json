@@ -117,15 +117,11 @@
         [
           "air conditioning as desired",
           "set"
-        ],
-        [
-          "annunciators test and consider",
-          "check"
         ]
       ]
     },
     {
-      "name": "cold start",
+      "name": "engine start",
       "items": [
         [
           "mixture full rich",
@@ -159,7 +155,7 @@
       ]
     },
     {
-      "name": "after start",
+      "name": "after engine start",
       "items": [
         [
           "oil pressure green",
@@ -186,7 +182,7 @@
           "check"
         ],
         [
-          "remote compass slaved & aligned",
+          "remote compass slaved and aligned",
           "check"
         ],
         [
@@ -194,7 +190,7 @@
           "check"
         ],
         [
-          "annunciators test & consider",
+          "annunciators test and consider",
           "check"
         ],
         [
@@ -219,7 +215,7 @@
         ],
         [
           "taxi lights on",
-          "check"
+          "on"
         ],
         [
           "ATC taxi clearance",
@@ -742,7 +738,7 @@
       ]
     },
     {
-      "name": "hot start",
+      "name": "engine start hot",
       "items": [
         [
           "mixture cut-off",
@@ -787,7 +783,7 @@
       ]
     },
     {
-      "name": "flooded start",
+      "name": "engine start flooded",
       "items": [
         [
           "mixture lean",

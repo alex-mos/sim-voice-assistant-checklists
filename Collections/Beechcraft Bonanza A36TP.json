@@ -1,0 +1,254 @@
+{
+  "schema": "0.1",
+  "collection": "Beechcraft Bonanza A36TP",
+  "author": "alex-mos",
+  "checklists": [
+    {
+      "name": "before engine start",
+      "items": [
+        ["preflight inspection complete", "complete"],
+        ["control locks remove", "removed"],
+        ["seats & seatbelts secure", "secure"],
+        ["cabin doors latched", "latched"],
+        ["parking brake set", "set"],
+        ["emergency gear handle stowed", "stowed"],
+        ["avionics breakers all in", "check"],
+        ["flaps up", "up"],
+        ["oxygen pressure 1550-1850 psi", "check"],
+        ["avionics off", "off"],
+        ["power lever flight idle", "set"],
+        ["propeller high RPM", "set"],
+        ["condition lever cut-off", "set"],
+        ["aileron trim centered", "set"],
+        ["firewall fuel shutoff open (push)", "open"],
+        ["ice deflector off", "off"],
+        ["firewall valve open (push)", "open"],
+        ["oil door open (push)", "open"],
+        ["P3 bleed air off (push)", "off"],
+        ["landing gear down", "down"],
+        ["all subpanel switches off", "off"],
+        ["all turbine engine switches off", "off"],
+        ["main breakers all in", "check"],
+        ["alternate static air normal", "normal"],
+        ["CO detector test", "check"],
+        ["fuel selector fullest tank", "set"],
+        ["beacon light on", "on"],
+        ["battery master on", "on"],
+        ["bus volts 23V minimum", "check"],
+        ["annunciators test & consider", "check"],
+        ["standby alternator on", "on"],
+        ["fuel quantities check", "check"],
+        ["fuel pump 1 on and audible", "check"],
+        ["fuel pump 2 on and audible", "check"],
+        ["fuel pumps off", "off"],
+        ["ignition check auto then on", "check"],
+        ["standby gyro pump on", "on"],
+        ["STBY GYRO annun illuminated", "check"],
+        ["instrument air green", "check"],
+        ["standby gyro pump off", "off"]
+      ]
+    },
+    {
+      "name": "engine start",
+      "items": [
+        ["oil door closed if below -20 degrees celsius", "check"],
+        ["starter on", "on"],
+        ["bus volts 15V minimum", "check"],
+        ["gas generator 15% minimum", "check"],
+        ["condition lever on", "on"],
+        ["ITT less than 1090C", "check"],
+        ["starter off at 52% Ng", "off"],
+        ["ignition off", "off"],
+        ["engine instruments check", "check"],
+        ["generator on", "on"],
+        ["generator load below 60 amperes in 2 minutes", "check"],
+        ["bus volts 28V", "check"]
+      ]
+    },
+    {
+      "name": "after engine start",
+      "items": [
+        ["all annunciators extinguished", "check"],
+        ["generator load below 25 amperes in 2 minutes", "check"],
+        ["lights as required", "set"],
+        ["weather radar off/standby", "set"],
+        ["avionics on", "on"],
+        ["cabin air & heat as desired", "set"],
+        ["air conditioning as desired", "set"],
+        ["parking brake release", "release"],
+        ["brakes check", "check"]
+      ]
+    },
+    {
+      "name": "run-up",
+      "items": [
+        ["parking brake set", "set"],
+        ["annunciators test & consider", "check"],
+        ["remote compass slaved & aligned", "check"],
+        ["fuel pump 1 on", "on"],
+        ["power lever 2000 RPM", "set"],
+        ["prop gov test 1990 RPM", "check"],
+        ["exercise propeller to 1500 RPM", "check"],
+        ["fire detector test", "check"],
+        ["generator reset hold", "check"],
+        ["generator load zero", "check"],
+        ["STBY ALT annun illuminated", "check"],
+        ["generator load flashing positive", "check"],
+        ["generator reset release", "check"],
+        ["STBY ALT annun extinguished", "check"],
+        ["generator load below 75A", "check"],
+        ["power lever idle", "set"],
+        ["ice deflector on", "on"],
+        ["oil door on", "on"],
+        ["OIL DOOR CLOSED annun illuminated", "check"],
+        ["oil door open unless below -20 degrees celsius", "check"],
+        ["instrument air green", "check"],
+        ["propeller heat on", "on"],
+        ["prop heat test press & hold", "check"],
+        ["propeller amps 20-25A", "check"],
+        ["propeller heat off", "off"],
+        ["electric trim exercise", "check"],
+        ["autopilot test", "check"],
+        ["heading bug 30 degrees left", "set"],
+        ["autopilot master engage", "engage"],
+        ["heading mode engage", "engage"],
+        ["yoke movement observe", "check"],
+        ["flight director bank left", "check"],
+        ["heading bug 30 degrees right", "set"],
+        ["yoke movement observe", "check"],
+        ["flight director bank right", "check"],
+        ["autopilot disconnect press AP off", "check"],
+        ["autopilot disconnect press FD off", "check"],
+        ["elevator trim set takeoff", "set"],
+        ["ICE DEFLEC annun illuminated", "check"],
+        ["ice deflector as required", "set"],
+        ["flaps check operation", "check"],
+        ["flaps set takeoff", "set"],
+        ["cockpit window closed", "closed"],
+        ["AFT DOOR annun extinguished", "check"],
+        ["flight controls free & correct", "check"],
+        ["altimeter set", "set"],
+        ["departure altitude set", "set"],
+        ["takeoff heading set", "set"],
+        ["panel lights dim for takeoff", "set"],
+        ["parking brake release", "release"]
+      ]
+    },
+    {
+      "name": "before takeoff",
+      "items": [
+        ["oil temperature 115F minimum", "check"],
+        ["BATT TEMP annun extinguished", "check"],
+        ["air conditioning off", "off"],
+        ["landing light on", "on"],
+        ["transponder alt mode", "set"],
+        ["weather radar on", "on"]
+      ]
+    },
+    {
+      "name": "takeoff",
+      "items": [
+        ["power lever 1200 FT-LBS", "set"],
+        ["brakes release", "release"],
+        ["engine instruments check", "check"],
+        ["landing gear up no runway remain", "up"],
+        ["flaps retract at 80 knots", "check"]
+      ]
+    },
+    {
+      "name": "climb",
+      "items": [
+        ["propeller 2200 RPM", "set"],
+        ["power lever 1100 FT-LBS", "set"],
+        ["ignition auto or off", "set"],
+        ["oil door closed (pull)", "closed"],
+        ["ice deflector as required", "set"],
+        ["fuel imbalance 15 gal max", "check"],
+        ["oxygen as required", "check"],
+        ["air conditioning as desired", "set"],
+        ["cabin air & heat as desired", "set"],
+        ["engine performance monitor", "check"]
+      ]
+    },
+    {
+      "name": "cruise",
+      "items": [
+        ["ignition auto or off", "set"],
+        ["oil door closed (pull)", "closed"],
+        ["ice deflector as required", "set"],
+        ["pitot heat on if OAT less than 4C", "check"],
+        ["propeller heat as required", "check"],
+        ["fuel imbalance 15 gal max", "check"],
+        ["propeller 2000 RPM", "set"]
+      ]
+    },
+    {
+      "name": "descent",
+      "items": [
+        ["ignition auto or off", "set"],
+        ["oil door closed (pull)", "closed"],
+        ["ice deflector as required", "set"],
+        ["power lever reduce", "set"],
+        ["engine performance monitor", "check"],
+        ["ice protection as required", "check"],
+        ["fuel imbalance 15 gal max", "check"]
+      ]
+    },
+    {
+      "name": "before landing",
+      "items": [
+        ["seats & seatbelts secure", "secure"],
+        ["fuel selector fullest tank", "set"],
+        ["oxygen off", "off"],
+        ["landing light on", "on"],
+        ["pitot heat on if OAT less than 4C", "check"],
+        ["propeller heat off", "off"],
+        ["air conditioning off", "off"],
+        ["ignition auto", "set"],
+        ["ice deflector as required", "set"],
+        ["flaps approach", "set"]
+      ]
+    },
+    {
+      "name": "landing",
+      "items": [
+        ["fuel pump 1 on", "on"],
+        ["propeller high RPM", "set"],
+        ["oil door open unless below -20 degrees celsius", "check"],
+        ["flaps as required", "set"],
+        ["landing gear down & locked", "down|locked"],
+        ["autopilot disconnect press once", "check"]
+      ]
+    },
+    {
+      "name": "after landing",
+      "items": [
+        ["ignition off", "off"],
+        ["flaps up", "up"],
+        ["ice deflector as required", "set"],
+        ["weather radar off/standby", "set"],
+        ["lights as required", "set"],
+        ["pitot heat off", "off"],
+        ["air conditioning as desired", "set"],
+        ["cabin air & heat as desired", "set"]
+      ]
+    },
+    {
+      "name": "shutdown",
+      "items": [
+        ["parking brake set", "set"],
+        ["avionics off", "off"],
+        ["all subpanel switches off", "off"],
+        ["throttle idle", "set"],
+        ["propeller high RPM", "set"],
+        ["condition lever cut-off", "set"],
+        ["generator off", "off"],
+        ["standby alternator off", "off"],
+        ["fuel pumps off when Ng below 10%", "off"],
+        ["battery master off", "off"],
+        ["parking brake release", "release"],
+        ["control locks install", "set"]
+      ]
+    }
+  ]
+}
