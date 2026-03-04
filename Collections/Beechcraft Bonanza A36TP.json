@@ -7,14 +7,12 @@
       "name": "before engine start",
       "items": [
         ["preflight inspection complete", "complete"],
-        ["control locks remove", "removed"],
-        ["seats & seatbelts secure", "secure"],
+        ["control locks removed", "removed"],
         ["cabin doors latched", "latched"],
         ["parking brake set", "set"],
-        ["emergency gear handle stowed", "stowed"],
         ["avionics breakers all in", "check"],
         ["flaps up", "up"],
-        ["oxygen pressure 1550-1850 psi", "check"],
+        ["oxygen pressure green", "check"],
         ["avionics off", "off"],
         ["power lever flight idle", "set"],
         ["propeller high RPM", "set"],
@@ -31,13 +29,13 @@
         ["main breakers all in", "check"],
         ["alternate static air normal", "normal"],
         ["CO detector test", "check"],
-        ["fuel selector fullest tank", "set"],
         ["beacon light on", "on"],
         ["battery master on", "on"],
         ["bus volts 23 volts minimum", "check"],
-        ["annunciators test & consider", "check"],
+        ["annunciators test and consider", "check"],
         ["standby alternator on", "on"],
         ["fuel quantities check", "check"],
+        ["fuel selector fullest tank", "set"],
         ["fuel pump 1 on and audible", "check"],
         ["fuel pump 2 on and audible", "check"],
         ["fuel pumps off", "off"],
@@ -56,13 +54,13 @@
         ["bus volts 15 volts minimum", "check"],
         ["gas generator 15% minimum", "check"],
         ["condition lever on", "on"],
-        ["ITT less than 1090C", "check"],
-        ["starter off at 52% Ng", "off"],
+        ["ITT less than 1090", "check"],
+        ["starter off at 52% ng", "off"],
         ["ignition off", "off"],
         ["engine instruments check", "check"],
         ["generator on", "on"],
         ["generator load below 60 amperes in 2 minutes", "check"],
-        ["bus volts 28V", "check"]
+        ["bus volts 28", "check"]
       ]
     },
     {
@@ -71,9 +69,8 @@
         ["all annunciators extinguished", "check"],
         ["generator load below 25 amperes in 2 minutes", "check"],
         ["lights as required", "set"],
-        ["weather radar off/standby", "set"],
         ["avionics on", "on"],
-        ["cabin air & heat as desired", "set"],
+        ["cabin air and heat as desired", "set"],
         ["air conditioning as desired", "set"],
         ["parking brake release", "release"],
         ["brakes check", "check"]
@@ -83,8 +80,8 @@
       "name": "run-up",
       "items": [
         ["parking brake set", "set"],
-        ["annunciators test & consider", "check"],
-        ["remote compass slaved & aligned", "check"],
+        ["annunciators test and consider", "check"],
+        ["remote compass slaved and aligned", "check"],
         ["fuel pump 1 on", "on"],
         ["power lever 2000 RPM", "set"],
         ["prop gov test 1990 RPM", "check"],
@@ -104,7 +101,7 @@
         ["oil door open unless below -20 degrees celsius", "check"],
         ["instrument air green", "check"],
         ["propeller heat on", "on"],
-        ["prop heat test press & hold", "check"],
+        ["prop heat test press and hold", "check"],
         ["propeller amps 20-25A", "check"],
         ["propeller heat off", "off"],
         ["electric trim exercise", "check"],
@@ -126,7 +123,7 @@
         ["flaps set takeoff", "set"],
         ["cockpit window closed", "closed"],
         ["aft door annun extinguished", "check"],
-        ["flight controls free & correct", "check"],
+        ["flight controls free and correct", "check"],
         ["altimeter set", "set"],
         ["departure altitude set", "set"],
         ["takeoff heading set", "set"],
@@ -137,12 +134,11 @@
     {
       "name": "before takeoff",
       "items": [
-        ["oil temperature 115F minimum", "check"],
-        ["BATT TEMP annun extinguished", "check"],
+        ["oil temperature 115 degrees fahrenheit minimum", "check"],
+        ["battery temperature annun extinguished", "check"],
         ["air conditioning off", "off"],
         ["landing light on", "on"],
-        ["transponder alt mode", "set"],
-        ["weather radar on", "on"]
+        ["transponder alt mode", "set"]
       ]
     },
     {
@@ -166,7 +162,7 @@
         ["fuel imbalance 15 gal max", "check"],
         ["oxygen as required", "check"],
         ["air conditioning as desired", "set"],
-        ["cabin air & heat as desired", "set"],
+        ["cabin air and heat as desired", "set"],
         ["engine performance monitor", "check"]
       ]
     },
@@ -197,7 +193,6 @@
     {
       "name": "before landing",
       "items": [
-        ["seats & seatbelts secure", "secure"],
         ["fuel selector fullest tank", "set"],
         ["oxygen off", "off"],
         ["landing light on", "on"],
@@ -216,7 +211,7 @@
         ["propeller high RPM", "set"],
         ["oil door open unless below -20 degrees celsius", "check"],
         ["flaps as required", "set"],
-        ["landing gear down & locked", "down|locked"],
+        ["landing gear down and locked", "down|locked"],
         ["autopilot disconnect press once", "check"]
       ]
     },
@@ -226,11 +221,10 @@
         ["ignition off", "off"],
         ["flaps up", "up"],
         ["ice deflector as required", "set"],
-        ["weather radar off/standby", "set"],
         ["lights as required", "set"],
         ["pitot heat off", "off"],
         ["air conditioning as desired", "set"],
-        ["cabin air & heat as desired", "set"]
+        ["cabin air and heat as desired", "set"]
       ]
     },
     {
