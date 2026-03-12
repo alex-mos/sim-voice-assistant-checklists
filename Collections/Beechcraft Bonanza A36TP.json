@@ -17,23 +17,25 @@
         ["all subpanel switches off", "off"],
         ["battery master off", "off"],
         ["all turbine engine switches off", "off"],
+        ["all trim tabs centered", "set"],
         ["main breakers (pilot side) all in", "check"],
         ["avionics breakers (copilot side) all in", "check"],
-        ["CO detector test", "check"],
-        ["oxygen pressure green", "check"],
         ["firewall valve open (pushed in)", "open"],
         ["oil door open (push)", "open"],
         ["P3 bleed air off (push)", "off"],
 
+        ["CO detector test", "check"],
+        ["oxygen pressure green", "check"],
+
         ["battery master on", "on"],
         ["beacon light on", "on"],
         ["navigation lights on", "check"],
+
         ["annunciators test and consider", "check"],
         ["alternator on", "on"],
 
-        ["all trim tabs centered", "set"],
 
-        ["firewall fuel shutoff open (push)", "open"],
+
         ["ice deflector off", "off"],
 
         ["alternate static air normal", "normal"],
@@ -83,12 +85,11 @@
         ["cabin air and heat as desired", "set"],
         ["air conditioning as desired", "set"],
 
-        ["parking brake release", "set"],
-        ["brakes check", "check"],
-        ["parking brake set", "set"],
-
         ["taxi lights on", "on"],
-        ["ATC taxi clearance", "check"]
+        ["ATC taxi clearance", "check"],
+
+        ["parking brake released", "released"],
+        ["brakes check", "check"]
       ]
     },
     {
@@ -107,7 +108,7 @@
         ["generator load zero", "check"],
         ["STBY ALT annun illuminated", "check"],
         ["generator load flashing positive", "check"],
-        ["generator reset release", "check"],
+        ["generator reset released", "check"],
         ["STBY ALT annun extinguished", "check"],
         ["generator load below 75A", "check"],
         ["power lever idle", "set"],
@@ -149,23 +150,23 @@
       "name": "before takeoff",
       "items": [
         ["oil temperature 115 degrees fahrenheit minimum", "check"],
-
         ["pitot heat on if outside air temperature less than 4 celsius", "check"],
         ["flaps set to take off position", "check"],
         ["air conditioning off", "off"],
         ["transponder alt mode", "set"],
-        ["taxi lights off", "check"],
-        ["landing light on", "on"],
-        ["strobe lights on", "on"],
 
         ["ATC takeoff clearance", "check"]
+
+        ["taxi lights off", "check"],
+        ["landing light on", "on"],
+        ["strobe lights on", "on"]
       ]
     },
     {
       "name": "takeoff",
       "items": [
         ["power lever 1200", "set"],
-        ["brakes release", "release"],
+        ["brakes released", "released"],
         ["engine instruments check", "check"],
         ["landing gear up no runway remain", "up"],
         ["flaps retract at 80 knots", "check"]
@@ -176,38 +177,43 @@
       "items": [
         ["power lever 1100", "set"],
         ["propeller 2200 RPM", "set"],
+
         ["oil door closed (pull)", "closed"],
         ["ice deflector as required", "set"],
-
         ["oxygen as required", "check"],
+
         ["engine performance monitor", "check"]
       ]
     },
     {
       "name": "cruise",
       "items": [
-        ["oil door closed (pull)", "closed"],
-        ["ice deflector as required", "set"],
+        ["propeller 2000 RPM", "set"],
 
-        ["landing light off", "off"],
+        ["oil door closed (pull)", "closed"],
         ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["ice deflector as required", "set"],
         ["propeller heat as required", "check"],
         ["fuel imbalance 15 gal max", "check"],
-        ["propeller 2000 RPM", "set"],
         ["cabin air and heat as desired", "check"],
         ["air conditioning as desired", "check"],
-        ["engine performance monitor", "check"]
+
+        ["engine performance monitor", "check"],
+
+        ["landing light off", "off"]
       ]
     },
     {
       "name": "descent",
       "items": [
+        ["power lever reduce", "set"],
+
         ["oil door closed (pull)", "closed"],
         ["ice deflector as required", "set"],
-        ["power lever reduce", "set"],
-        ["engine performance monitor", "check"],
         ["ice protection as required", "check"],
-        ["fuel imbalance 15 gal max", "check"]
+        ["fuel imbalance 15 gal max", "check"],
+
+        ["engine performance monitor", "check"]
       ]
     },
     {
@@ -264,7 +270,7 @@
         ["standby alternator off", "off"],
         ["fuel pumps off when Ng below 10%", "off"],
         ["battery master off", "off"],
-        ["parking brake release", "release"],
+        ["parking brake released", "released"],
         ["control locks install", "set"]
       ]
     }
