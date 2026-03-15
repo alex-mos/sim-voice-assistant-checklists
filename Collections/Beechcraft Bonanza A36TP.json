@@ -34,8 +34,6 @@
         ["annunciators test and consider", "check"],
         ["alternator on", "on"],
 
-
-
         ["ice deflector off", "off"],
 
         ["alternate static air normal", "normal"],
@@ -134,7 +132,7 @@
         ["autopilot disconnect press FD off", "check"],
         ["elevator trim set takeoff", "set"],
         ["ice deflector annunciator illuminated", "check"],
-        ["ice deflector as required", "set"],
+        ["ice deflector as required", "check"],
         ["flaps check operation", "check"],
         ["flaps set takeoff", "set"],
         ["cockpit window closed", "closed"],
@@ -155,7 +153,7 @@
         ["air conditioning off", "off"],
         ["transponder alt mode", "set"],
 
-        ["ATC takeoff clearance", "check"]
+        ["ATC takeoff clearance", "check"],
 
         ["taxi lights off", "check"],
         ["landing light on", "on"],
@@ -177,28 +175,28 @@
       "items": [
         ["power lever 1100", "set"],
         ["propeller 2200 RPM", "set"],
-
         ["oil door closed (pull)", "closed"],
-        ["ice deflector as required", "set"],
+        ["engine performance monitor", "check"],
         ["oxygen as required", "check"],
 
-        ["engine performance monitor", "check"]
+        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["ice deflector as required", "check"],
+        ["propeller heat as required", "check"]
       ]
     },
     {
       "name": "cruise",
       "items": [
         ["propeller 2000 RPM", "set"],
-
         ["oil door closed (pull)", "closed"],
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
-        ["ice deflector as required", "set"],
-        ["propeller heat as required", "check"],
         ["fuel imbalance 15 gal max", "check"],
         ["cabin air and heat as desired", "check"],
         ["air conditioning as desired", "check"],
-
         ["engine performance monitor", "check"],
+
+        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["ice deflector as required", "check"],
+        ["propeller heat as required", "check"],
 
         ["landing light off", "off"]
       ]
@@ -207,13 +205,13 @@
       "name": "descent",
       "items": [
         ["power lever reduce", "set"],
-
-        ["oil door closed (pull)", "closed"],
-        ["ice deflector as required", "set"],
-        ["ice protection as required", "check"],
         ["fuel imbalance 15 gal max", "check"],
+        ["oil door closed (pull)", "closed"],
+        ["engine performance monitor", "check"],
 
-        ["engine performance monitor", "check"]
+        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["prop heat as required", "check"],
+        ["ice deflector as required", "check"]
       ]
     },
     {
@@ -221,11 +219,12 @@
       "items": [
         ["fuel selector fullest tank", "set"],
         ["oxygen off", "off"],
-        ["landing light on", "on"],
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
         ["air conditioning off", "off"],
-        ["ice deflector as required", "set"],
-        ["flaps approach", "set"]
+        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["ice deflector as required", "check"],
+        ["flaps approach", "set"],
+
+        ["landing light on", "on"]
       ]
     },
     {
@@ -234,9 +233,10 @@
         ["fuel pump 1 on", "on"],
         ["propeller high RPM", "set"],
         ["oil door open unless below -20 degrees celsius", "check"],
-        ["flaps as required", "set"],
 
         ["landing gear down and locked", "set"],
+        ["flaps full or as required", "set"],
+
         ["autopilot disconnect", "check"]
       ]
     },
@@ -246,7 +246,7 @@
         ["flaps up", "up"],
 
         ["ignition off", "off"],
-        ["ice deflector as required", "set"],
+        ["ice deflector as required", "check"],
 
         ["pitot heat off", "off"],
         ["propeller heat off", "off"],
