@@ -6,7 +6,7 @@
     {
       "name": "before engine start",
       "items": [
-        ["engine covers, pitot heat cover, chockes removed", "removed"],
+        ["engine covers, pitot heat cover, chocks removed", "removed"],
         ["check failures", "check"],
         ["check payload and fuel", "check"],
         ["control locks removed", "removed"],
@@ -23,33 +23,25 @@
         ["firewall valve open (pushed in)", "open"],
         ["oil door open (push)", "open"],
         ["P3 bleed air off (push)", "off"],
-
         ["CO detector test", "check"],
         ["oxygen pressure green", "check"],
-
         ["battery master on", "on"],
         ["beacon light on", "on"],
         ["navigation lights on", "check"],
-
         ["annunciators test and consider", "check"],
         ["alternator on", "on"],
-
         ["ice deflector off", "off"],
-
         ["alternate static air normal", "normal"],
         ["bus volts 23 volts minimum", "check"],
-
         ["fuel quantity check", "check"],
         ["fuel selector fullest tank", "check"],
         ["fuel pump 1 on and audible", "check"],
         ["fuel pump 2 on and audible", "check"],
         ["fuel pumps off", "off"],
-
         ["standby gyro pump on", "on"],
         ["standby gyro annunciator illuminated", "check"],
         ["instrument air green", "check"],
         ["standby gyro pump off", "off"],
-
         ["power lever flight idle", "set"],
         ["propeller high RPM", "set"],
         ["condition lever cut-off", "set"]
@@ -74,20 +66,17 @@
       "name": "after engine start",
       "items": [
         ["engine instruments check", "check"],
-
         ["generator load below 60 amperes in 2 minutes", "check"],
         ["bus volts 28", "check"],
         ["all annunciators extinguished", "check"],
         ["avionics on", "on"],
-
         ["cabin air and heat as desired", "set"],
         ["air conditioning as desired", "set"],
-
+        ["parking brake release", "set"],
+        ["brakes check", "check"],
+        ["parking brake set", "set"],
         ["taxi lights on", "on"],
-        ["ATC taxi clearance", "check"],
-
-        ["parking brake released", "released"],
-        ["brakes check", "check"]
+        ["ATC taxi clearance", "check"]
       ]
     },
     {
@@ -95,7 +84,6 @@
       "items": [
         ["parking brake set", "set"],
         ["instrument air green", "check"],
-
         ["annunciators test and consider", "check"],
         ["remote compass slaved and aligned", "check"],
         ["power lever 2000 RPM", "set"],
@@ -148,13 +136,11 @@
       "name": "before takeoff",
       "items": [
         ["oil temperature 115 degrees fahrenheit minimum", "check"],
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["flaps set to take off position", "check"],
         ["air conditioning off", "off"],
         ["transponder alt mode", "set"],
-
         ["ATC takeoff clearance", "check"],
-
         ["taxi lights off", "check"],
         ["landing light on", "on"],
         ["strobe lights on", "on"]
@@ -178,10 +164,10 @@
         ["oil door closed (pull)", "closed"],
         ["engine performance monitor", "check"],
         ["oxygen as required", "check"],
-
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["ice deflector as required", "check"],
-        ["propeller heat as required", "check"]
+        ["propeller heat as required", "check"],
+        ["landing light off", "off"]
       ]
     },
     {
@@ -193,12 +179,9 @@
         ["cabin air and heat as desired", "check"],
         ["air conditioning as desired", "check"],
         ["engine performance monitor", "check"],
-
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["ice deflector as required", "check"],
-        ["propeller heat as required", "check"],
-
-        ["landing light off", "off"]
+        ["propeller heat as required", "check"]
       ]
     },
     {
@@ -208,8 +191,7 @@
         ["fuel imbalance 15 gal max", "check"],
         ["oil door closed (pull)", "closed"],
         ["engine performance monitor", "check"],
-
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["prop heat as required", "check"],
         ["ice deflector as required", "check"]
       ]
@@ -220,10 +202,9 @@
         ["fuel selector fullest tank", "set"],
         ["oxygen off", "off"],
         ["air conditioning off", "off"],
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["ice deflector as required", "check"],
         ["flaps approach", "set"],
-
         ["landing light on", "on"]
       ]
     },
@@ -233,10 +214,8 @@
         ["fuel pump 1 on", "on"],
         ["propeller high RPM", "set"],
         ["oil door open unless below -20 degrees celsius", "check"],
-
         ["landing gear down and locked", "set"],
         ["flaps full or as required", "set"],
-
         ["autopilot disconnect", "check"]
       ]
     },
@@ -244,16 +223,16 @@
       "name": "after landing",
       "items": [
         ["flaps up", "up"],
-
         ["ignition off", "off"],
         ["ice deflector as required", "check"],
-
         ["pitot heat off", "off"],
         ["propeller heat off", "off"],
         ["air conditioning as desired", "check"],
         ["cabin air and heat as desired", "check"],
+        ["transponder standby", "standby"],
+        ["landing light off", "off"],
         ["strobe light off", "off"],
-        ["taxi lights on", "check"]
+        ["taxi lights on", "on"]
       ]
     },
     {
@@ -261,7 +240,6 @@
       "items": [
         ["parking brake set", "set"],
         ["avionics off", "off"],
-
         ["all subpanel switches off", "off"],
         ["throttle idle", "set"],
         ["propeller high RPM", "set"],
@@ -270,8 +248,8 @@
         ["standby alternator off", "off"],
         ["fuel pumps off when Ng below 10%", "off"],
         ["battery master off", "off"],
-        ["parking brake released", "released"],
-        ["control locks install", "set"]
+        ["parking brake released", "set"],
+        ["control locks installed", "set"]
       ]
     }
   ]

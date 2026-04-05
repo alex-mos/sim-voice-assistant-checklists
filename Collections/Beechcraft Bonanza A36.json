@@ -6,7 +6,7 @@
     {
       "name": "before engine start",
       "items": [
-        ["engine covers, pitot heat cover, chockes removed", "removed"],
+        ["engine covers, pitot heat cover, chocks removed", "removed"],
         ["check failures", "check"],
         ["check payload and fuel", "check"],
         ["control locks removed", "removed"],
@@ -21,31 +21,22 @@
         ["CO detector test", "check"],
         ["oxygen pressure green", "check"],
         ["firewall valve open (pushed in)", "open"],
-
         ["battery master on", "on"],
         ["beacon light on", "on"],
         ["navigation lights on", "check"],
         ["annunciators test and consider", "check"],
         ["alternator on", "on"],
-
         ["all trim tabs centered", "set"],
-
         ["loadmeter primary", "primary"],
-
-        ["firewall valve open (pushed in)", "open"],
         ["cowl flaps open", "open"],
-
         ["bus volts 23 volts minimum", "check"],
         ["aux fuel pump low. audible. off.", "check"],
-
         ["fuel quantity check", "check"],
         ["fuel selector fullest tank", "check"],
-
         ["standby gyro pump on", "on"],
         ["standby gyro annunciator illuminated", "check"],
         ["instrument air green", "check"],
         ["standby gyro pump off", "off"],
-
         ["throttle full open", "set"],
         ["propeller high RPM", "set"],
         ["mixture full rich", "set"]
@@ -66,19 +57,15 @@
         ["mixture lean for taxi", "set"],
         ["oil pressure green", "check"],
         ["remote compass slaved and aligned", "check"],
-
         ["generator load below 25 amperes in 2 minutes", "check"],
         ["bus volts 28", "check"],
         ["all annunciators extinguished", "check"],
         ["avionics on", "on"],
-
         ["cabin air and heat as desired", "set"],
         ["air conditioning as desired", "set"],
-
         ["parking brake release", "set"],
         ["brakes check", "check"],
         ["parking brake set", "set"],
-
         ["taxi lights on", "on"],
         ["ATC taxi clearance", "check"]
       ]
@@ -88,7 +75,6 @@
       "items": [
         ["parking brake set", "set"],
         ["instrument air green", "check"],
-
         ["mixture full rich", "check"],
         ["throttle 1700 rpm", "check"],
         ["exercise propeller to 300 rpm drop", "check"],
@@ -135,16 +121,14 @@
       "items": [
         ["mixture full rich", "set"],
         ["oil temperature 24 celsius minimum", "check"],
-
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["flaps set to take off position", "check"],
         ["air conditioning off", "off"],
         ["transponder alt mode", "set"],
+        ["ATC takeoff clearance", "check"],
         ["taxi lights off", "check"],
         ["landing light on", "on"],
-        ["strobe lights on", "on"],
-
-        ["ATC takeoff clearance", "check"]
+        ["strobe lights on", "on"]
       ]
     },
     {
@@ -163,21 +147,19 @@
         ["throttle full open", "check"],
         ["propeller 2500 RPM", "set"],
         ["mixture max power", "set"],
-
         ["oxygen as required", "check"],
-        ["engine performance monitor", "check"]
+        ["engine performance monitor", "check"],
+        ["landing light off", "off"]
       ]
     },
     {
       "name": "cruise",
       "items": [
         ["cowl flaps close", "set"],
-
-        ["landing light off", "off"],
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["propeller heat as required", "check"],
         ["fuel imbalance 15 gallons maximum", "check"],
-        ["lean mixture Lean Of Peak or Rich Of Peak", "check"],
+        ["lean mixture lean of peak or rich of peak", "check"],
         ["propeller 2500 RPM", "set"],
         ["throttle as required", "set"],
         ["cabin air and heat as desired", "check"],
@@ -188,9 +170,9 @@
     {
       "name": "descent",
       "items": [
-        ["cowl flaps closed", "check"],
-        ["throttle reduce", "check"],
-        ["mixture enrichen", "check"],
+        ["cowl flaps closed", "closed"],
+        ["throttle reduce", "set"],
+        ["mixture enrichen", "set"],
         ["engine performance monitor", "check"],
         ["cylinder head temp 116 celsius minimum", "check"]
       ]
@@ -201,22 +183,21 @@
         ["fuel selector fullest tank", "check"],
         ["fuel imbalance 15 gallons maximum", "check"],
         ["oxygen off", "check"],
-        ["landing light on", "check"],
-        ["pitot heat on if outside air temperature less than 4 celsius", "check"],
+        ["pitot heat on if outside air temperature below 10 degrees celsius", "check"],
         ["air conditioning off", "off"],
         ["cowl flaps as required", "check"],
-        ["mixture max power", "check"],
-        ["flaps approach", "set"]
+        ["mixture max power", "set"],
+        ["flaps approach", "set"],
+        ["landing light on", "on"]
       ]
     },
     {
       "name": "landing",
       "items": [
-        ["propeller high rpm", "set"],
+        ["propeller high RPM", "set"],
         ["mixture max power", "set"],
-        ["flaps as required", "set"],
-
         ["landing gear down and locked", "set"],
+        ["flaps full or as required", "set"],
         ["autopilot disconnect", "check"]
       ]
     },
@@ -224,15 +205,15 @@
       "name": "after landing",
       "items": [
         ["flaps up", "up"],
-
         ["cowl flaps open", "open"],
-
         ["pitot heat off", "off"],
         ["propeller heat off", "off"],
         ["air conditioning as desired", "check"],
         ["cabin air and heat as desired", "check"],
+        ["transponder standby", "standby"],
+        ["landing light off", "off"],
         ["strobe light off", "off"],
-        ["taxi lights on", "check"]
+        ["taxi lights on", "on"]
       ]
     },
     {
@@ -240,15 +221,14 @@
       "items": [
         ["parking brake set", "set"],
         ["avionics off", "off"],
-
         ["all subpanel switches off", "off"],
-        ["throttle closed", "closed|set"],
-        ["propeller high rpm", "set"],
+        ["throttle closed", "set"],
+        ["propeller high RPM", "set"],
         ["mixture cut-off", "set"],
         ["magnetos off", "off"],
         ["alternators off", "off"],
         ["battery master off", "off"],
-        ["parking brake release", "check"],
+        ["parking brake released", "set"],
         ["control locks installed", "set"]
       ]
     },
